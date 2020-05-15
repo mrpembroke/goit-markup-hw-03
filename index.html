@@ -6,10 +6,14 @@
     <title>Wed Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <!-- Шапка -->
+    <header class="page-header">
+
+    <div class="container">
       <nav>
         <a href="./index.html" class="logo-header">Web<span class="color">Studio</span></a>
 
@@ -19,7 +23,9 @@
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-
+    </div>
+    
+    <div class="container">
       <address>
         <ul class="address-header list">
           <li>
@@ -32,21 +38,28 @@
           </li>
         </ul>
       </address>
+    </div>
+    
     </header>
-
+  
     <main>
 <!-- hero -->
-      <section class="hero">
+    
+      <section class="hero section">
+      <div class="container">
         <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-        <a href="" class="hero-content link button">Заказать услугу</a>
+        <a href="" class="hero-content button">Заказать услугу</a>
+      </div>
       </section>
 
 <!-- Наши преимущества -->
+
       <section class="section features">
+      <div class="container">
         <h2 class="section-title">Наши преимущества</h2>
         <ul class="list features-list">
           <li>
-            <img src="./img/rectangle/antena.svg" alt="Радар" />
+            <img src="./img/rectangle/antena.svg" alt="Радар" class="img"/>
             <h3 class="title">Внимание к деталям</h3>
             <p class="text">
               Идейные соображения, а также начало повседневной работы по
@@ -54,7 +67,7 @@
             </p>
           </li>
           <li>
-            <img src="./img/rectangle/clock.svg" alt="Часы" />
+            <img src="./img/rectangle/clock.svg" alt="Часы" class="img"/>
             <h3 class="title">Пунктуальность</h3>
             <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -62,7 +75,7 @@
             </p>
           </li>
           <li>
-            <img src="./img/rectangle/diagram.svg" alt="Диаграмма" />
+            <img src="./img/rectangle/diagram.svg" alt="Диаграмма" class="img"/>
             <h3 class="title">Планирование</h3>
             <p class="text">
               Равным образом консультация с широким активом в значительной
@@ -78,10 +91,13 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
+
 
 <!-- Чем занимаемся -->
       <section class="section works">
+      <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list works-item">
           <li>
@@ -90,6 +106,7 @@
               src="./img/what-we-do/desktop.jpg"
               alt="Десктопы"
               width="380"
+              class="img"
             />
           </li>
           <li>
@@ -98,6 +115,7 @@
               src="./img/what-we-do/mobile.jpg"
               alt="Мобильные устройства"
               width="380"
+              class="img"
             />
           </li>
           <li>
@@ -106,18 +124,23 @@
               src="./img/what-we-do/design.jpg"
               alt="Дизайн"
               width="380"
+              class="img"
             />
           </li>
         </ul>
+      </div>
       </section>
+      
 
 <!-- Команда -->
+  
       <section class="section team">
+      <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list">
 <!-- Джон -->
           <li>
-            <img src="./img/team/1.jpg" alt="Джон" width="278px"/>
+            <img src="./img/team/1.jpg" alt="Джон" width="278px" class="img"/>
             <h3 class="team-title">John Smith</h3>
             <p class="team-text">Product Designer</p>
             <ul class="list socials">
@@ -149,7 +172,7 @@
           </li>
 <!-- Марта -->
           <li>
-            <img src="./img/team/2.jpg" alt="Марта" width="278px" />
+            <img src="./img/team/2.jpg" alt="Марта" width="278px" class="img"/>
             <h3 class="team-title">Marta Stewart</h3>
             <p class="team-text">Frontend Developer</p>
             <ul class="list socials team-links">
@@ -181,7 +204,7 @@
             </li>
 <!-- Роберт -->
           <li>
-            <img src="./img/team/3.jpg" alt="Роберт" width="278px"/>
+            <img src="./img/team/3.jpg" alt="Роберт" width="278px" class="img"/>
             <h3 class="team-title">Robert Jakis</h3>
             <p class="team-text">Marketing</p>
             <ul class="list socials team-links">
@@ -213,7 +236,7 @@
           </li>
 <!-- Мартин -->
           <li>
-            <img src="./img/team/4.jpg" alt="Мартин" width="278px"/>
+            <img src="./img/team/4.jpg" alt="Мартин" width="278px"class="img"/>
             <h3 class="team-title">Martin Doe</h3>
             <p class="team-text">UI Designer</p>
             <ul class="list socials team-links">
@@ -245,10 +268,12 @@
             </ul>
           </li>
         </ul>
+      </div>
       </section>
-
+      
 <!-- Клиенты -->
       <section class="section clients">
+      <div class="container">
         <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="list clients-item">
           <li><a href="" aria-label="Клиент-1" class="link">Клиент-1</a></li>
@@ -259,14 +284,19 @@
           <li><a href="" aria-label="Клиент-6" class="link">Клиент-6</a></li>
           <li><a href="" aria-label="Клиент-7" class="link">Клиент-7</a></li>
         </ul>
+      </div>
       </section>
+    
     </main>
 
 <!-- Подвал -->
     <footer class="footer">
       <!-- Контакты -->
-      <section>
-        <h2>Контакты</h2>
+    
+      <section class="footer-section">
+
+      <div class="container">
+        <!-- <h2 class="title">Контакты</h2> -->
         <a href="./index.html" class="logo-footer">Web<span class="color">Studio</span></a>
 
         <address>
@@ -282,10 +312,14 @@
             </li>
           </ul>
         </address>
+      </div>
       </section>
 
+
 <!-- Социальные медиа -->
-      <section class="socials">
+   
+    <section class="socials footer-section">  
+    <div class="container">
         <h2 class="socials-title">присоединяйтесь</h2>
       <ul class="list">
         <li><a href="" aria-label="Ссылка на Facebook" class="link">Ссылка на Facebook</a></li>
@@ -293,7 +327,10 @@
         <li><a href="" aria-label="Ссылка на Twitter" class="link">Ссылка на Twitter</a></li>
         <li><a href="" aria-label="Ссылка на Linkedin" class="link">Ссылка на Linkedin</a></li>
       </ul>
-      </section>
+    </div>
+    </section>
+    
+
       <p class="copy">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
