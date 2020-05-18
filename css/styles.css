@@ -83,8 +83,7 @@ body {
 
 /* header */
 .page-header {
-	display: flex;
-	background-color: #ccc;
+	/* background-color: #ccc; */
 }
 /* Header-nav */
 
@@ -108,10 +107,6 @@ body {
 	display: flex;
 	margin-left: 80px;
 }
-
-/* .site-nav .item:not(:last-child) {
-	margin-right: 50px;
-} */
 
 .site-nav .item + .item {
 	margin-left: 50px;
@@ -206,7 +201,7 @@ body {
 
 	text-align: center;
 
-	background-color: tomato;
+	/* background-color: tomato; */
 }
 
 .hero .hero-title {
@@ -248,7 +243,8 @@ body {
 
 .features-list {
 	display: flex;
-	background-color: yellow;
+
+	/* background-color: yellow; */
 }
 
 .features-list .title {
@@ -288,7 +284,7 @@ body {
 .works {
 	padding-top: 0;
 
-	background-color: salmon;
+	/* background-color: salmon; */
 }
 
 .works .section-title {
@@ -363,7 +359,7 @@ body {
 /* Clients Clients Clients */
 
 .clients {
-	background-color: yellowgreen;
+	/* background-color: yellowgreen; */
 }
 
 .clients .link {
@@ -408,10 +404,6 @@ body {
 .media-icon .item + .item {
 	margin-left: 10px;
 }
-
-/* .media-icon .item:last-child {
-	margin-right: 0;
-} */
 
 .footer .footer-section {
 	padding-top: 48px;
